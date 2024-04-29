@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Battery Status API</title>
+    </head>
+    <body>
+        <div class="battery-wrapper">
+            <div class="battery">
+                <div class="level">
+                    <div class="charging"></div>
+                </div>
+                <div class="percentage"></div>
+            </div>
+            <ul class="battery-times">
+                <li class="charging-time">
+                    <div class="title">
+                        Remaining charging time
+                    </div>
+                    <div class="value"></div>
+                </li>
+                <li class="discharging-time">
+                    <div class="title">
+                        Remaining discharging time
+                    </div>
+                    <div class="value"></div>
+                </li>
+            </ul>
+            <div class="battery-incompatible-message hide"></div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
