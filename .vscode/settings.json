@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "isAsync": false,
+                "cmd": "osascript -e 'tell application \"Chrome\" to tell the front window to tell the active tab to reload'"
+            }
+        ]
+    }
+}
